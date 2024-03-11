@@ -1,0 +1,54 @@
+INFO 2024-03-11 17:35:45,347 autoreload 24444 31812 Watching for file changes with StatReloader
+INFO 2024-03-11 17:35:48,126 basehttp 24444 33668 "GET / HTTP/1.1" 200 1024
+WARNING 2024-03-11 17:35:48,238 log 24444 33668 Not Found: /favicon.ico
+WARNING 2024-03-11 17:35:48,238 basehttp 24444 33668 "GET /favicon.ico HTTP/1.1" 404 2442
+INFO 2024-03-11 17:36:01,228 basehttp 24444 33668 "GET / HTTP/1.1" 200 1024
+INFO 2024-03-11 17:36:33,157 basehttp 24444 33668 "GET /about/ HTTP/1.1" 200 987
+INFO 2024-03-11 17:36:45,877 basehttp 24444 33668 "GET / HTTP/1.1" 200 1024
+INFO 2024-03-11 17:37:49,220 basehttp 24444 33668 "GET / HTTP/1.1" 200 1024
+INFO 2024-03-11 17:37:53,511 basehttp 24444 33668 "GET /about/ HTTP/1.1" 200 987
+INFO 2024-03-11 17:37:54,483 basehttp 24444 33668 "GET / HTTP/1.1" 200 1024
+WARNING 2024-03-11 17:38:15,757 log 24444 33668 Not Found: /index
+WARNING 2024-03-11 17:38:15,757 basehttp 24444 33668 "GET /index HTTP/1.1" 404 2424
+INFO 2024-03-11 17:41:57,800 basehttp 24444 33668 "GET /about/ HTTP/1.1" 200 987
+INFO 2024-03-11 17:48:45,204 autoreload 24444 31812 A:\GeekBrains\Django\Seminar\project\my_project\my_project\settings.py changed, reloading.
+INFO 2024-03-11 17:48:45,549 autoreload 32416 39960 Watching for file changes with StatReloader
+INFO 2024-03-11 17:48:50,654 basehttp 32416 11020 "GET /about/ HTTP/1.1" 200 987
+INFO 2024-03-11 17:48:51,155 basehttp 32416 11020 "GET /about/ HTTP/1.1" 200 987
+INFO 2024-03-11 17:48:51,912 basehttp 32416 11020 "GET /about/ HTTP/1.1" 200 987
+INFO 2024-03-11 17:48:52,113 basehttp 32416 11020 "GET /about/ HTTP/1.1" 200 987
+INFO 2024-03-11 17:48:52,296 basehttp 32416 11020 "GET /about/ HTTP/1.1" 200 987
+INFO 2024-03-11 17:48:52,493 basehttp 32416 11020 "GET /about/ HTTP/1.1" 200 987
+INFO 2024-03-11 17:48:53,710 basehttp 32416 11020 "GET / HTTP/1.1" 200 1024
+INFO 2024-03-11 17:48:54,464 basehttp 32416 11020 "GET /about/ HTTP/1.1" 200 987
+INFO 2024-03-11 17:48:58,385 basehttp 32416 11020 "GET / HTTP/1.1" 200 1024
+INFO 2024-03-11 17:48:58,924 basehttp 32416 11020 "GET /about/ HTTP/1.1" 200 987
+INFO 2024-03-11 17:56:45,002 autoreload 32416 39960 A:\GeekBrains\Django\Seminar\project\my_project\my_project\settings.py changed, reloading.
+%INFOs %2024-03-11 17:56:45,346 %autoreload %20944 %14944 %Watching for file changes with StatReloaders
+%INFOs %2024-03-11 17:56:49,197 %basehttp %20944 %25228 %"GET /about/ HTTP/1.1" 200 987s
+%INFOs %2024-03-11 17:56:57,001 %basehttp %20944 %25228 %"GET /about/ HTTP/1.1" 200 987s
+%INFOs %2024-03-11 17:56:57,440 %basehttp %20944 %25228 %"GET /about/ HTTP/1.1" 200 987s
+%INFOs %2024-03-11 17:56:58,363 %basehttp %20944 %25228 %"GET /about/ HTTP/1.1" 200 987s
+%INFOs %2024-03-11 17:56:58,591 %basehttp %20944 %25228 %"GET /about/ HTTP/1.1" 200 987s
+%INFOs %2024-03-11 17:57:03,381 %basehttp %20944 %25228 %"GET / HTTP/1.1" 200 1024s
+%INFOs %2024-03-11 18:01:59,606 %autoreload %39928 %39176 %Watching for file changes with StatReloaders
+%INFOs %2024-03-11 18:02:04,017 %basehttp %39928 %16488 %"GET / HTTP/1.1" 200 1024s
+%INFOs %2024-03-11 18:02:05,041 %basehttp %39928 %16488 %"GET / HTTP/1.1" 200 1024s
+%INFOs %2024-03-11 18:04:05,412 %autoreload %39928 %39176 %A:\GeekBrains\Django\Seminar\project\my_project\my_project\settings.py changed, reloading.s
+INFOs %2024-03-11 18:04:05,894 %autoreload %40920 %32904 %Watching for file changes with StatReloaders
+INFOs %2024-03-11 18:04:09,230 %basehttp %40920 %5892 %"GET / HTTP/1.1" 200 1024s
+INFOs %2024-03-11 18:07:21,098 %basehttp %40920 %5892 %"GET / HTTP/1.1" 200 1024s
+INFOs %2024-03-11 18:07:21,376 %basehttp %40920 %5892 %"GET / HTTP/1.1" 200 1024s
+INFOs %2024-03-11 18:07:23,717 %basehttp %40920 %5892 %"GET / HTTP/1.1" 200 1024s
+INFOs %2024-03-11 18:07:25,095 %basehttp %40920 %5892 %"GET /about/ HTTP/1.1" 200 987s
+INFOs %2024-03-11 18:07:27,629 %basehttp %40920 %5892 %"GET /about/ HTTP/1.1" 200 987s
+INFOs %2024-03-11 18:10:08,719 %autoreload %40920 %32904 %A:\GeekBrains\Django\Seminar\project\my_project\my_project\settings.py changed, reloading.s
+INFOs 2024-03-11 18:10:09,169 autoreload 25108 28228 Watching for file changes with StatReloaders
+INFOs 2024-03-11 18:10:12,154 basehttp 25108 40852 "GET /about/ HTTP/1.1" 200 987s
+INFOs 2024-03-11 18:10:12,820 basehttp 25108 40852 "GET /about/ HTTP/1.1" 200 987s
+INFOs 2024-03-11 18:10:16,369 basehttp 25108 40852 "GET /about/ HTTP/1.1" 200 987s
+INFOs 2024-03-11 18:10:16,586 basehttp 25108 40852 "GET /about/ HTTP/1.1" 200 987s
+INFOs 2024-03-11 18:10:20,198 basehttp 25108 40852 "GET / HTTP/1.1" 200 1024s
+INFOs 2024-03-11 18:10:20,427 basehttp 25108 40852 "GET / HTTP/1.1" 200 1024s
+INFOs 2024-03-11 18:10:21,238 basehttp 25108 40852 "GET / HTTP/1.1" 200 1024s
+INFOs 2024-03-11 18:10:21,485 basehttp 25108 40852 "GET / HTTP/1.1" 200 1024s
