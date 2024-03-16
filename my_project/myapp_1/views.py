@@ -1,5 +1,6 @@
 import datetime
 import logging
+from random import choice
 
 from django.http import HttpResponse
 
@@ -30,3 +31,5 @@ def about(request):
     http_text = http_text_hand + http_menu + title + title_2 + http_text_footer
     logger.info(f'Посещение страницы обо мне - {datetime.datetime.now()}')
     return HttpResponse(http_text)
+
+

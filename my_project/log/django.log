@@ -52,3 +52,676 @@ INFOs 2024-03-11 18:10:20,198 basehttp 25108 40852 "GET / HTTP/1.1" 200 1024s
 INFOs 2024-03-11 18:10:20,427 basehttp 25108 40852 "GET / HTTP/1.1" 200 1024s
 INFOs 2024-03-11 18:10:21,238 basehttp 25108 40852 "GET / HTTP/1.1" 200 1024s
 INFOs 2024-03-11 18:10:21,485 basehttp 25108 40852 "GET / HTTP/1.1" 200 1024s
+INFOs 2024-03-11 20:22:07,378 autoreload 17880 5032 Watching for file changes with StatReloaders
+INFOs 2024-03-11 20:22:09,369 basehttp 17880 22824 "GET / HTTP/1.1" 200 1024s
+INFOs 2024-03-11 20:22:14,438 basehttp 17880 22824 "GET / HTTP/1.1" 200 1024s
+INFOs 2024-03-11 20:22:15,328 basehttp 17880 22824 "GET / HTTP/1.1" 200 1024s
+INFOs 2024-03-11 20:22:15,555 basehttp 17880 22824 "GET / HTTP/1.1" 200 1024s
+INFOs 2024-03-11 20:22:15,781 basehttp 17880 22824 "GET / HTTP/1.1" 200 1024s
+INFOs 2024-03-11 20:22:16,000 basehttp 17880 22824 "GET / HTTP/1.1" 200 1024s
+INFOs 2024-03-11 20:22:16,219 basehttp 17880 22824 "GET / HTTP/1.1" 200 1024s
+INFOs 2024-03-11 20:22:16,431 basehttp 17880 22824 "GET / HTTP/1.1" 200 1024s
+INFOs 2024-03-11 20:22:37,437 basehttp 17880 22824 "GET /coin HTTP/1.1" 301 0s
+INFOs 2024-03-11 20:22:37,444 basehttp 17880 40472 "GET /coin/ HTTP/1.1" 200 71s
+INFOs 2024-03-11 20:25:23,005 basehttp 17880 40472 "GET /coin/ HTTP/1.1" 200 71s
+INFOs 2024-03-11 20:25:24,084 basehttp 17880 40472 "GET /coin/ HTTP/1.1" 200 71s
+INFOs 2024-03-11 20:25:25,106 basehttp 17880 40472 "GET /coin/ HTTP/1.1" 200 71s
+INFOs 2024-03-11 20:25:25,491 basehttp 17880 40472 "GET /coin/ HTTP/1.1" 200 71s
+INFOs 2024-03-11 20:29:46,220 autoreload 17880 5032 A:\GeekBrains\Django\Seminar\project\my_project\myapp_1\views.py changed, reloading.s
+INFOs 2024-03-11 20:29:46,714 autoreload 40864 31076 Watching for file changes with StatReloaders
+INFOs 2024-03-11 20:29:46,904 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 20:29:47,925 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 20:29:48,384 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 20:29:48,947 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 20:29:49,216 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 20:29:49,443 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 20:29:49,669 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 20:29:49,896 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 20:29:50,095 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 20:29:50,290 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 20:29:50,493 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 20:29:50,683 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 20:29:51,121 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 20:29:51,333 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 20:29:51,567 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 20:29:51,778 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 20:29:51,990 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 20:29:52,202 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 20:29:52,428 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 20:29:53,515 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 20:29:53,735 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 20:29:53,976 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 20:29:54,201 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 20:29:54,428 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 20:29:54,639 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 20:29:54,829 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 20:29:55,034 basehttp 40864 12672 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 20:31:50,520 autoreload 40864 31076 A:\GeekBrains\Django\Seminar\project\my_project\myapp_1\views.py changed, reloading.s
+INFOs 2024-03-11 20:31:50,958 autoreload 29144 24776 Watching for file changes with StatReloaders
+INFOs 2024-03-11 20:34:45,280 autoreload 29144 24776 A:\GeekBrains\Django\Seminar\project\my_project\myapp_1\views.py changed, reloading.s
+INFOs 2024-03-11 20:34:45,814 autoreload 22056 31216 Watching for file changes with StatReloaders
+INFOs 2024-03-11 20:40:05,681 autoreload 22056 31216 A:\GeekBrains\Django\Seminar\project\my_project\myapp_1\views.py changed, reloading.s
+INFOs 2024-03-11 20:40:06,169 autoreload 40624 39836 Watching for file changes with StatReloaders
+INFOs 2024-03-11 20:45:37,204 autoreload 40624 39836 A:\GeekBrains\Django\Seminar\project\my_project\myapp_1\views.py changed, reloading.s
+INFOs 2024-03-11 20:45:37,697 autoreload 5976 22324 Watching for file changes with StatReloaders
+INFOs 2024-03-11 20:46:07,259 autoreload 5976 22324 A:\GeekBrains\Django\Seminar\project\my_project\myapp_1\views.py changed, reloading.s
+INFOs 2024-03-11 20:46:07,776 autoreload 40164 37156 Watching for file changes with StatReloaders
+INFOs 2024-03-11 20:46:11,806 basehttp 40164 12256 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 20:46:15,150 basehttp 40164 12256 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 20:46:16,140 basehttp 40164 12256 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 20:46:17,059 basehttp 40164 12256 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 20:46:17,920 basehttp 40164 12256 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 20:46:30,311 basehttp 40164 12256 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 20:46:30,990 basehttp 40164 12256 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 20:46:38,676 basehttp 40164 12256 "GET / HTTP/1.1" 200 1024s
+INFOs 2024-03-11 20:46:39,227 basehttp 40164 12256 "GET / HTTP/1.1" 200 1024s
+INFOs 2024-03-11 20:46:40,196 basehttp 40164 12256 "GET / HTTP/1.1" 200 1024s
+INFOs 2024-03-11 20:46:40,920 basehttp 40164 12256 "GET /about/ HTTP/1.1" 200 987s
+INFOs 2024-03-11 20:46:41,947 basehttp 40164 12256 "GET / HTTP/1.1" 200 1024s
+INFOs 2024-03-11 20:46:42,513 basehttp 40164 12256 "GET /about/ HTTP/1.1" 200 987s
+INFOs 2024-03-11 20:46:44,020 basehttp 40164 12256 "GET /about/ HTTP/1.1" 200 987s
+INFOs 2024-03-11 20:46:44,443 basehttp 40164 12256 "GET / HTTP/1.1" 200 1024s
+INFOs 2024-03-11 20:54:07,884 autoreload 40164 37156 A:\GeekBrains\Django\Seminar\project\my_project\myapp_1\views.py changed, reloading.s
+INFOs 2024-03-11 20:54:08,387 autoreload 12112 38676 Watching for file changes with StatReloaders
+INFOs 2024-03-11 21:51:07,644 basehttp 12112 34464 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 21:51:08,115 basehttp 12112 34464 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 22:02:36,867 basehttp 12112 41948 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 22:02:37,101 basehttp 12112 41948 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 22:02:37,344 basehttp 12112 41948 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 22:02:37,530 basehttp 12112 41948 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 22:02:38,261 basehttp 12112 41948 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 22:02:38,490 basehttp 12112 41948 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 22:02:38,723 basehttp 12112 41948 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 22:02:38,956 basehttp 12112 41948 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 22:02:39,206 basehttp 12112 41948 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 22:02:39,416 basehttp 12112 41948 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 22:02:39,642 basehttp 12112 41948 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 22:02:39,847 basehttp 12112 41948 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 22:02:40,054 basehttp 12112 41948 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 22:02:40,285 basehttp 12112 41948 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 22:03:25,281 basehttp 12112 41948 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 22:03:25,861 autoreload 12112 38676 A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\views.py changed, reloading.s
+INFOs 2024-03-11 22:03:26,356 autoreload 15668 20268 Watching for file changes with StatReloaders
+INFOs 2024-03-11 22:05:16,850 autoreload 15668 20268 A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\urls.py changed, reloading.s
+INFOs 2024-03-11 22:05:17,252 autoreload 17892 33668 Watching for file changes with StatReloaders
+INFOs 2024-03-11 22:05:21,495 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 22:05:22,716 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 22:05:23,485 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 22:05:23,793 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 22:05:24,014 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 22:05:24,247 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 22:05:24,485 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 22:05:24,716 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 22:05:24,951 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 22:05:25,198 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 22:05:25,401 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 22:05:25,593 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 22:05:25,793 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 22:05:25,999 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 22:05:26,206 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 22:05:26,415 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 22:05:26,643 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 22:05:26,869 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 22:05:27,186 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 22:05:27,430 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 22:05:27,664 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 22:05:28,232 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 22:05:28,515 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 22:05:28,742 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 22:05:28,993 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 22:05:32,230 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 22:05:32,580 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 10s
+INFOs 2024-03-11 22:05:32,810 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 22:05:33,066 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 22:07:39,372 basehttp 17892 29900 "GET /coin/ HTTP/1.1" 200 8s
+INFOs 2024-03-11 22:07:39,381 autoreload 17892 33668 A:\GeekBrains\Django\Seminar\project\my_project\my_project\settings.py changed, reloading.s
+INFO 2024-03-11 22:07:39,890 autoreload 35244 26816 Watching for file changes with StatReloader
+INFO 2024-03-11 22:07:41,536 basehttp 35244 29056 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:07:42,575 basehttp 35244 29056 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:07:43,036 basehttp 35244 29056 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:07:43,239 basehttp 35244 29056 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:07:43,441 basehttp 35244 29056 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:08:48,539 basehttp 35244 29056 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:08:49,022 autoreload 35244 26816 A:\GeekBrains\Django\Seminar\project\my_project\my_project\settings.py changed, reloading.
+INFO 2024-03-11 22:09:22,295 autoreload 16680 22156 Watching for file changes with StatReloader
+INFO 2024-03-11 22:09:22,461 basehttp 16680 28688 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:09:26,302 basehttp 16680 28688 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:09:26,986 basehttp 16680 28688 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:09:28,453 basehttp 16680 28688 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:09:28,843 basehttp 16680 28688 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:09:29,053 basehttp 16680 28688 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:09:29,342 basehttp 16680 28688 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:09:34,162 basehttp 16680 28688 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:09:40,069 basehttp 16680 28688 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:11:33,062 autoreload 16680 22156 A:\GeekBrains\Django\Seminar\project\my_project\my_project\settings.py changed, reloading.
+INFO 2024-03-11 22:11:33,601 autoreload 13536 27736 Watching for file changes with StatReloader
+INFO 2024-03-11 22:11:42,632 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:11:43,615 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:11:43,856 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:11:44,066 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:11:44,272 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:11:44,497 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:11:45,534 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:11:45,724 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:11:45,921 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:11:46,103 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:11:46,285 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:11:46,468 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:11:46,650 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:11:46,818 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:11:46,986 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:11:47,146 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:11:47,315 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:11:47,482 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:11:47,614 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:11:47,737 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:11:47,964 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:11:48,015 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:14:06,901 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:14:07,872 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:14:08,360 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:14:08,594 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:14:08,834 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:14:09,067 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:14:10,497 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:14:11,043 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:14:11,299 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:14:11,518 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:14:11,737 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:14:11,948 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:14:12,452 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:14:12,794 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:14:13,086 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:14:13,305 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:14:13,538 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:14:13,757 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:14:13,990 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:14:14,202 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:14:14,420 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:14:14,653 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:14:14,872 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:14:16,084 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:14:31,581 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:14:32,019 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:14:32,243 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:14:32,478 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:14:32,812 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:14:33,491 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:14:33,805 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:14:50,404 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:14:51,753 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:14:52,087 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:14:52,299 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:14:52,540 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:14:52,846 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:14:53,131 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:14:53,415 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:14:58,615 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:14:58,958 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:14:59,235 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:14:59,474 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:15:12,201 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:15:13,040 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:15:13,798 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:15:14,054 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:15:14,563 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:15:22,169 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:15:23,285 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:15:23,568 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:15:24,407 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:15:24,691 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:15:24,947 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:15:25,210 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:15:25,421 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:15:25,620 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:15:25,844 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:15:26,044 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:15:26,398 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:15:26,632 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:15:26,917 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:15:27,115 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:38,431 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:16:38,714 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:38,939 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:39,155 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:16:39,348 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:16:39,549 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:16:39,751 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:39,965 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:16:40,147 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:16:40,348 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:48,308 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:16:48,518 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:48,728 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:49,340 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:49,558 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:50,157 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:50,386 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:50,752 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:50,960 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:51,307 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:51,500 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:52,024 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:52,224 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:16:52,544 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:16:52,748 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:53,241 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:53,454 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:53,931 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:54,944 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:55,158 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:55,435 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:55,652 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:55,859 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:56,153 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:16:56,348 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:16:56,550 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:16:56,744 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:16:56,938 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:16:57,126 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:57,303 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:57,485 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:57,660 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:16:57,842 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:16:58,046 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:58,261 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:58,479 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:16:58,668 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:16:58,878 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:16:59,078 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:59,282 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:16:59,500 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:16:59,726 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:16:59,951 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:17:00,179 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:17:00,383 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:17:00,590 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:17:01,197 basehttp 13536 31676 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:18:55,392 autoreload 13536 27736 A:\GeekBrains\Django\Seminar\project\my_project\my_project\settings.py changed, reloading.
+INFO 2024-03-11 22:18:55,792 autoreload 36320 5032 Watching for file changes with StatReloader
+INFO 2024-03-11 22:18:56,083 basehttp 36320 11988 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:18:58,217 basehttp 36320 11988 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:18:58,594 basehttp 36320 11988 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:18:58,867 basehttp 36320 11988 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:18:59,080 basehttp 36320 11988 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:18:59,262 basehttp 36320 11988 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:18:59,468 basehttp 36320 11988 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:18:59,662 basehttp 36320 11988 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:18:59,792 basehttp 36320 11988 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:18:59,948 basehttp 36320 11988 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:19:00,176 basehttp 36320 11988 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:19:00,395 basehttp 36320 11988 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:19:00,601 basehttp 36320 11988 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:19:00,782 basehttp 36320 11988 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:19:00,975 basehttp 36320 11988 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:19:01,146 basehttp 36320 11988 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:19:01,345 basehttp 36320 11988 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:19:01,512 basehttp 36320 11988 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:19:01,691 basehttp 36320 11988 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 22:19:01,907 basehttp 36320 11988 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 22:51:43,277 autoreload 36320 5032 A:\GeekBrains\Django\Seminar\project\my_project\myapp_1\views.py changed, reloading.
+INFO 2024-03-11 22:51:43,643 autoreload 41532 23196 Watching for file changes with StatReloader
+INFO 2024-03-11 22:52:42,403 autoreload 41532 23196 A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\models.py changed, reloading.
+INFO 2024-03-11 22:52:42,786 autoreload 26736 28220 Watching for file changes with StatReloader
+INFO 2024-03-11 22:54:45,250 autoreload 26736 28220 A:\GeekBrains\Django\Seminar\project\my_project\myapp_1\urls.py changed, reloading.
+INFO 2024-03-11 22:54:45,592 autoreload 8836 1644 Watching for file changes with StatReloader
+INFO 2024-03-11 22:54:56,931 autoreload 8836 1644 A:\GeekBrains\Django\Seminar\project\my_project\my_project\urls.py changed, reloading.
+INFO 2024-03-11 22:54:57,399 autoreload 24036 15316 Watching for file changes with StatReloader
+INFO 2024-03-11 22:54:57,521 basehttp 24036 35652 "GET / HTTP/1.1" 200 1024
+INFO 2024-03-11 22:55:03,148 basehttp 24036 35652 "GET / HTTP/1.1" 200 1024
+INFO 2024-03-11 22:55:03,637 basehttp 24036 35652 "GET / HTTP/1.1" 200 1024
+INFO 2024-03-11 22:55:04,090 basehttp 24036 35652 "GET / HTTP/1.1" 200 1024
+INFO 2024-03-11 22:55:04,328 basehttp 24036 35652 "GET / HTTP/1.1" 200 1024
+INFO 2024-03-11 22:55:17,229 basehttp 24036 35652 "GET /coin/ HTTP/1.1" 200 71
+INFO 2024-03-11 23:05:40,239 basehttp 24036 38512 "GET /coin/ HTTP/1.1" 200 71
+INFO 2024-03-11 23:05:40,827 basehttp 24036 38512 "GET /coin/ HTTP/1.1" 200 71
+INFO 2024-03-11 23:05:41,286 basehttp 24036 38512 "GET /coin/ HTTP/1.1" 200 71
+INFO 2024-03-11 23:05:41,501 basehttp 24036 38512 "GET /coin/ HTTP/1.1" 200 71
+INFO 2024-03-11 23:05:41,718 basehttp 24036 38512 "GET /coin/ HTTP/1.1" 200 71
+INFO 2024-03-11 23:12:23,533 basehttp 24036 33216 "GET /coin/ HTTP/1.1" 200 71
+INFO 2024-03-11 23:12:24,020 basehttp 24036 33216 "GET /coin/ HTTP/1.1" 200 71
+INFO 2024-03-11 23:12:24,227 basehttp 24036 33216 "GET /coin/ HTTP/1.1" 200 71
+INFO 2024-03-11 23:12:24,421 basehttp 24036 33216 "GET /coin/ HTTP/1.1" 200 71
+INFO 2024-03-11 23:12:24,624 basehttp 24036 33216 "GET /coin/ HTTP/1.1" 200 71
+INFO 2024-03-11 23:12:24,842 basehttp 24036 33216 "GET /coin/ HTTP/1.1" 200 71
+INFO 2024-03-11 23:12:25,025 basehttp 24036 33216 "GET /coin/ HTTP/1.1" 200 71
+INFO 2024-03-11 23:12:25,219 basehttp 24036 33216 "GET /coin/ HTTP/1.1" 200 71
+INFO 2024-03-11 23:46:31,990 autoreload 24036 15316 A:\GeekBrains\Django\Seminar\project\my_project\my_project\urls.py changed, reloading.
+INFO 2024-03-11 23:46:32,481 autoreload 40812 41448 Watching for file changes with StatReloader
+INFO 2024-03-11 23:47:20,241 autoreload 40812 41448 A:\GeekBrains\Django\Seminar\project\my_project\my_project\urls.py changed, reloading.
+INFO 2024-03-11 23:47:20,744 autoreload 24036 10300 Watching for file changes with StatReloader
+INFO 2024-03-11 23:52:26,287 autoreload 24036 10300 A:\GeekBrains\Django\Seminar\project\my_project\my_project\urls.py changed, reloading.
+INFO 2024-03-11 23:52:26,639 autoreload 40612 1908 Watching for file changes with StatReloader
+INFO 2024-03-11 23:52:32,901 basehttp 40612 8300 "GET /coin/ HTTP/1.1" 200 71
+INFO 2024-03-11 23:52:33,725 basehttp 40612 8300 "GET /coin/ HTTP/1.1" 200 71
+INFO 2024-03-11 23:52:33,920 basehttp 40612 8300 "GET /coin/ HTTP/1.1" 200 71
+INFO 2024-03-11 23:52:34,113 basehttp 40612 8300 "GET /coin/ HTTP/1.1" 200 71
+INFO 2024-03-11 23:52:34,284 basehttp 40612 8300 "GET /coin/ HTTP/1.1" 200 71
+INFO 2024-03-11 23:52:34,459 basehttp 40612 8300 "GET /coin/ HTTP/1.1" 200 71
+INFO 2024-03-11 23:58:53,641 basehttp 40612 42896 "GET /coin/ HTTP/1.1" 200 71
+INFO 2024-03-12 00:00:42,358 autoreload 40612 1908 A:\GeekBrains\Django\Seminar\project\my_project\my_project\urls.py changed, reloading.
+INFO 2024-03-12 00:00:42,697 autoreload 33024 42312 Watching for file changes with StatReloader
+INFO 2024-03-12 00:00:44,560 basehttp 33024 41584 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:00:45,547 basehttp 33024 41584 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:00:45,930 basehttp 33024 41584 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:00:46,165 basehttp 33024 41584 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:00:46,368 basehttp 33024 41584 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:00:46,580 basehttp 33024 41584 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:00:46,774 basehttp 33024 41584 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:00:46,980 basehttp 33024 41584 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:00:47,171 basehttp 33024 41584 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:00:47,582 basehttp 33024 41584 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:00:48,016 basehttp 33024 41584 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:00:48,480 basehttp 33024 41584 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:00:49,115 basehttp 33024 41584 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:00:49,844 basehttp 33024 41584 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:00:50,346 basehttp 33024 41584 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:00:51,058 basehttp 33024 41584 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:00:51,502 basehttp 33024 41584 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:03:06,362 basehttp 33024 41584 "GET /coin/coin HTTP/1.1" 301 0
+INFO 2024-03-12 00:03:06,367 basehttp 33024 39644 "GET /coin/coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:03:09,683 basehttp 33024 39644 "GET /coin/coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:03:10,359 basehttp 33024 39644 "GET /coin/coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:03:10,697 basehttp 33024 39644 "GET /coin/coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:03:10,882 basehttp 33024 39644 "GET /coin/coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:03:11,062 basehttp 33024 39644 "GET /coin/coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:03:11,228 basehttp 33024 39644 "GET /coin/coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:03:11,405 basehttp 33024 39644 "GET /coin/coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:03:11,568 basehttp 33024 39644 "GET /coin/coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:03:11,743 basehttp 33024 39644 "GET /coin/coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:03:11,898 basehttp 33024 39644 "GET /coin/coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:03:12,245 basehttp 33024 39644 "GET /coin/coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:03:12,427 basehttp 33024 39644 "GET /coin/coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:03:12,618 basehttp 33024 39644 "GET /coin/coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:03:51,846 basehttp 33024 39644 "GET /coin/coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:03:52,085 autoreload 33024 42312 A:\GeekBrains\Django\Seminar\project\my_project\my_project\urls.py changed, reloading.
+INFO 2024-03-12 00:03:52,478 autoreload 36760 42772 Watching for file changes with StatReloader
+WARNING 2024-03-12 00:03:52,641 log 36760 40852 Not Found: /coin/coin/
+WARNING 2024-03-12 00:03:52,642 basehttp 36760 40852 "GET /coin/coin/ HTTP/1.1" 404 2765
+WARNING 2024-03-12 00:03:52,826 log 36760 40852 Not Found: /coin/coin/
+WARNING 2024-03-12 00:03:52,827 basehttp 36760 40852 "GET /coin/coin/ HTTP/1.1" 404 2765
+WARNING 2024-03-12 00:03:53,409 log 36760 40852 Not Found: /coin/coin/
+WARNING 2024-03-12 00:03:53,409 basehttp 36760 40852 "GET /coin/coin/ HTTP/1.1" 404 2765
+WARNING 2024-03-12 00:03:53,626 log 36760 40852 Not Found: /coin/coin/
+WARNING 2024-03-12 00:03:53,627 basehttp 36760 40852 "GET /coin/coin/ HTTP/1.1" 404 2765
+INFO 2024-03-12 00:04:00,542 basehttp 36760 40852 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:04:02,149 basehttp 36760 40852 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:04:02,802 basehttp 36760 40852 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:04:03,033 basehttp 36760 40852 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:04:03,252 basehttp 36760 40852 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:04:03,445 basehttp 36760 40852 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:04:03,640 basehttp 36760 40852 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:04:03,853 basehttp 36760 40852 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:04:04,074 basehttp 36760 40852 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:04:04,319 basehttp 36760 40852 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:04:04,522 basehttp 36760 40852 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:04:04,714 basehttp 36760 40852 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:04:04,917 basehttp 36760 40852 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:04:05,128 basehttp 36760 40852 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:04:05,311 basehttp 36760 40852 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:04:05,493 basehttp 36760 40852 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:09:21,525 autoreload 36760 42772 A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\models.py changed, reloading.
+INFO 2024-03-12 00:09:21,876 autoreload 42120 41280 Watching for file changes with StatReloader
+INFO 2024-03-12 00:09:41,230 autoreload 42120 41280 A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\models.py changed, reloading.
+INFO 2024-03-12 00:09:41,690 autoreload 42644 22856 Watching for file changes with StatReloader
+INFO 2024-03-12 00:16:16,071 autoreload 37852 42636 Watching for file changes with StatReloader
+INFO 2024-03-12 00:16:32,634 basehttp 37852 4240 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:16:34,202 basehttp 37852 4240 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:16:34,893 basehttp 37852 4240 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:16:35,104 basehttp 37852 4240 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:16:35,268 basehttp 37852 4240 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:16:35,430 basehttp 37852 4240 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:16:35,594 basehttp 37852 4240 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:16:35,743 basehttp 37852 4240 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:21:12,725 autoreload 37852 42636 A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\views.py changed, reloading.
+INFO 2024-03-12 00:21:13,118 autoreload 42120 39616 Watching for file changes with StatReloader
+INFO 2024-03-12 00:26:07,747 autoreload 42120 39616 A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\views.py changed, reloading.
+INFO 2024-03-12 00:26:08,159 autoreload 42636 30456 Watching for file changes with StatReloader
+ERROR 2024-03-12 00:27:36,982 log 42636 36752 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\views.py", line 21, in coin
+    coin = Coin(site=result)
+           ^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Coin() got unexpected keyword arguments: 'site'
+ERROR 2024-03-12 00:27:36,984 basehttp 42636 36752 "GET /coin/ HTTP/1.1" 500 74830
+WARNING 2024-03-12 00:28:12,058 log 42636 36752 Not Found: /myapp_2/coin/
+WARNING 2024-03-12 00:28:12,058 basehttp 42636 36752 "GET /myapp_2/coin/ HTTP/1.1" 404 2774
+INFO 2024-03-12 00:29:19,666 autoreload 42636 30456 A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\views.py changed, reloading.
+INFO 2024-03-12 00:29:20,049 autoreload 16332 11724 Watching for file changes with StatReloader
+WARNING 2024-03-12 00:29:24,698 log 16332 15720 Not Found: /myapp_2/coin/
+WARNING 2024-03-12 00:29:24,699 basehttp 16332 15720 "GET /myapp_2/coin/ HTTP/1.1" 404 2774
+WARNING 2024-03-12 00:29:25,224 log 16332 15720 Not Found: /myapp_2/coin/
+WARNING 2024-03-12 00:29:25,225 basehttp 16332 15720 "GET /myapp_2/coin/ HTTP/1.1" 404 2774
+WARNING 2024-03-12 00:29:25,539 log 16332 15720 Not Found: /myapp_2/coin/
+WARNING 2024-03-12 00:29:25,539 basehttp 16332 15720 "GET /myapp_2/coin/ HTTP/1.1" 404 2774
+WARNING 2024-03-12 00:29:25,773 log 16332 15720 Not Found: /myapp_2/coin/
+WARNING 2024-03-12 00:29:25,774 basehttp 16332 15720 "GET /myapp_2/coin/ HTTP/1.1" 404 2774
+INFO 2024-03-12 00:29:55,733 autoreload 16332 11724 A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\views.py changed, reloading.
+INFO 2024-03-12 00:29:56,145 autoreload 1128 30992 Watching for file changes with StatReloader
+WARNING 2024-03-12 00:31:08,894 log 1128 42828 Not Found: /myapp_2/coin/
+WARNING 2024-03-12 00:31:08,895 basehttp 1128 42828 "GET /myapp_2/coin/ HTTP/1.1" 404 2774
+WARNING 2024-03-12 00:31:09,612 log 1128 42828 Not Found: /myapp_2/coin/
+WARNING 2024-03-12 00:31:09,613 basehttp 1128 42828 "GET /myapp_2/coin/ HTTP/1.1" 404 2774
+WARNING 2024-03-12 00:31:09,939 log 1128 42828 Not Found: /myapp_2/coin/
+WARNING 2024-03-12 00:31:09,940 basehttp 1128 42828 "GET /myapp_2/coin/ HTTP/1.1" 404 2774
+ERROR 2024-03-12 00:31:17,922 log 1128 42828 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\views.py", line 21, in coin
+    coin = Coin(site=result)
+           ^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Coin() got unexpected keyword arguments: 'site'
+ERROR 2024-03-12 00:31:17,923 basehttp 1128 42828 "GET /coin/ HTTP/1.1" 500 74914
+INFO 2024-03-12 00:35:30,294 autoreload 1128 30992 A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\models.py changed, reloading.
+INFO 2024-03-12 00:35:30,746 autoreload 17024 36088 Watching for file changes with StatReloader
+INFO 2024-03-12 00:37:24,194 autoreload 17024 36088 A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\models.py changed, reloading.
+INFO 2024-03-12 00:37:24,517 autoreload 41744 37804 Watching for file changes with StatReloader
+INFO 2024-03-12 00:39:21,925 autoreload 37652 36760 Watching for file changes with StatReloader
+ERROR 2024-03-12 00:39:24,290 log 37652 14920 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\views.py", line 21, in coin
+    coin = Coin(site=result)
+           ^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Coin() got unexpected keyword arguments: 'site'
+ERROR 2024-03-12 00:39:24,292 basehttp 37652 14920 "GET /coin/ HTTP/1.1" 500 75057
+ERROR 2024-03-12 00:39:25,573 log 37652 14920 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\views.py", line 21, in coin
+    coin = Coin(site=result)
+           ^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Coin() got unexpected keyword arguments: 'site'
+ERROR 2024-03-12 00:39:25,574 basehttp 37652 14920 "GET /coin/ HTTP/1.1" 500 75057
+INFO 2024-03-12 00:43:04,746 autoreload 37652 36760 A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\views.py changed, reloading.
+INFO 2024-03-12 00:43:05,104 autoreload 32744 41124 Watching for file changes with StatReloader
+INFO 2024-03-12 00:43:34,615 autoreload 32744 41124 A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\views.py changed, reloading.
+INFO 2024-03-12 00:43:34,973 autoreload 42424 36852 Watching for file changes with StatReloader
+ERROR 2024-03-12 00:43:36,514 log 42424 42544 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\views.py", line 21, in coin
+    result = Coin(site=site)
+             ^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Coin() got unexpected keyword arguments: 'site'
+ERROR 2024-03-12 00:43:36,516 basehttp 42424 42544 "GET /coin/ HTTP/1.1" 500 75141
+ERROR 2024-03-12 00:43:37,030 log 42424 42544 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\views.py", line 21, in coin
+    result = Coin(site=site)
+             ^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Coin() got unexpected keyword arguments: 'site'
+ERROR 2024-03-12 00:43:37,031 basehttp 42424 42544 "GET /coin/ HTTP/1.1" 500 75146
+ERROR 2024-03-12 00:43:37,284 log 42424 42544 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\views.py", line 21, in coin
+    result = Coin(site=site)
+             ^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Coin() got unexpected keyword arguments: 'site'
+ERROR 2024-03-12 00:43:37,285 basehttp 42424 42544 "GET /coin/ HTTP/1.1" 500 75147
+ERROR 2024-03-12 00:43:37,546 log 42424 42544 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\views.py", line 21, in coin
+    result = Coin(site=site)
+             ^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Coin() got unexpected keyword arguments: 'site'
+ERROR 2024-03-12 00:43:37,547 basehttp 42424 42544 "GET /coin/ HTTP/1.1" 500 75147
+INFO 2024-03-12 00:45:22,489 autoreload 42424 36852 A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\views.py changed, reloading.
+INFO 2024-03-12 00:45:22,861 autoreload 41280 42252 Watching for file changes with StatReloader
+INFO 2024-03-12 00:46:14,614 autoreload 41280 42252 A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\views.py changed, reloading.
+INFO 2024-03-12 00:46:15,033 autoreload 11672 42068 Watching for file changes with StatReloader
+ERROR 2024-03-12 00:46:16,849 log 11672 30456 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\views.py", line 21, in coin
+    orl_or_resh = Coin(site=result)
+                  ^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Coin() got unexpected keyword arguments: 'site'
+ERROR 2024-03-12 00:46:16,851 basehttp 11672 30456 "GET /coin/ HTTP/1.1" 500 75185
+ERROR 2024-03-12 00:46:17,414 log 11672 30456 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\views.py", line 21, in coin
+    orl_or_resh = Coin(site=result)
+                  ^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Coin() got unexpected keyword arguments: 'site'
+ERROR 2024-03-12 00:46:17,415 basehttp 11672 30456 "GET /coin/ HTTP/1.1" 500 75185
+ERROR 2024-03-12 00:46:53,336 log 11672 30456 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\views.py", line 21, in coin
+    orl_or_resh = Coin(result=result)
+                  ^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Coin() got unexpected keyword arguments: 'site'
+ERROR 2024-03-12 00:46:53,338 basehttp 11672 30456 "GET /coin/ HTTP/1.1" 500 75195
+INFO 2024-03-12 00:46:53,831 autoreload 11672 42068 A:\GeekBrains\Django\Seminar\project\my_project\myapp_2\views.py changed, reloading.
+INFO 2024-03-12 00:46:54,222 autoreload 42344 41920 Watching for file changes with StatReloader
+INFO 2024-03-12 00:46:54,448 basehttp 42344 42664 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:46:55,835 basehttp 42344 42664 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:46:56,594 basehttp 42344 42664 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:46:56,900 basehttp 42344 42664 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:46:57,847 basehttp 42344 42664 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:46:58,066 basehttp 42344 42664 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:46:58,277 basehttp 42344 42664 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 00:46:58,485 basehttp 42344 42664 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:46:58,687 basehttp 42344 42664 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:46:58,922 basehttp 42344 42664 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:47:10,053 basehttp 42344 42664 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 00:47:12,772 basehttp 42344 42664 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 15:42:48,510 autoreload 27408 38276 Watching for file changes with StatReloader
+INFO 2024-03-12 15:42:51,662 basehttp 27408 25248 "GET /coin/ HTTP/1.1" 200 10
+WARNING 2024-03-12 15:42:51,716 log 27408 25248 Not Found: /favicon.ico
+WARNING 2024-03-12 15:42:51,716 basehttp 27408 25248 "GET /favicon.ico HTTP/1.1" 404 2768
+INFO 2024-03-12 15:42:52,420 basehttp 27408 25248 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-12 15:42:53,063 basehttp 27408 25248 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-12 15:43:30,211 basehttp 27408 25248 "GET / HTTP/1.1" 200 1024
+INFO 2024-03-12 15:43:31,157 basehttp 27408 25248 "GET / HTTP/1.1" 200 1024
+INFO 2024-03-16 18:29:18,744 autoreload 6552 7984 Watching for file changes with StatReloader
+INFO 2024-03-16 18:29:21,108 basehttp 6552 7044 "GET / HTTP/1.1" 200 1024
+WARNING 2024-03-16 18:29:21,245 log 6552 7044 Not Found: /favicon.ico
+WARNING 2024-03-16 18:29:21,246 basehttp 6552 7044 "GET /favicon.ico HTTP/1.1" 404 2768
+INFO 2024-03-16 18:29:28,209 basehttp 6552 7044 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-16 18:29:28,656 basehttp 6552 7044 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-16 18:29:31,311 basehttp 6552 7044 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-16 18:29:31,902 basehttp 6552 7044 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-16 18:29:32,369 basehttp 6552 7044 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-16 18:29:32,596 basehttp 6552 7044 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-16 18:36:14,012 basehttp 6552 9956 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-03-16 18:36:14,708 basehttp 6552 9956 "GET /coin/ HTTP/1.1" 200 8
+WARNING 2024-03-16 18:36:45,319 log 6552 9956 Not Found: /coin/statistic
+WARNING 2024-03-16 18:36:45,320 basehttp 6552 9956 "GET /coin/statistic HTTP/1.1" 404 2777
+WARNING 2024-03-16 18:37:04,911 log 6552 9956 Not Found: /coin/statistic5
+WARNING 2024-03-16 18:37:04,912 basehttp 6552 9956 "GET /coin/statistic5 HTTP/1.1" 404 2780
+INFO 2024-03-16 18:37:13,301 basehttp 6552 9956 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-03-16 23:00:52,722 autoreload 11036 17740 Watching for file changes with StatReloader
+INFO 2024-03-16 23:00:58,044 basehttp 11036 17844 "GET / HTTP/1.1" 200 1024
+INFO 2024-03-16 23:01:00,277 basehttp 11036 17844 "GET / HTTP/1.1" 200 1024
+WARNING 2024-03-16 23:01:18,231 log 11036 17844 Not Found: /orders
+WARNING 2024-03-16 23:01:18,232 basehttp 11036 17844 "GET /orders HTTP/1.1" 404 3427
+INFO 2024-03-16 23:01:37,092 basehttp 11036 17844 "GET /order HTTP/1.1" 301 0
+INFO 2024-03-16 23:01:37,098 basehttp 11036 11508 "GET /order/ HTTP/1.1" 200 28
+INFO 2024-03-17 00:40:36,498 basehttp 11036 16244 "GET /product HTTP/1.1" 301 0
+INFO 2024-03-17 00:40:36,511 basehttp 11036 10960 "GET /product/ HTTP/1.1" 200 30
+INFO 2024-03-17 00:40:48,983 basehttp 11036 10960 "GET /client HTTP/1.1" 301 0
+INFO 2024-03-17 00:40:48,988 basehttp 11036 21696 "GET /client/ HTTP/1.1" 200 29

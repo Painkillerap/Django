@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myapp_1',
+    'myapp_2',
+    'hwapp_2',
 ]
 
 MIDDLEWARE = [
@@ -132,21 +134,19 @@ LOGGING = {
             'format': '%(levelname)s %(message)s'
         },
         'verbose': {
-            'format': '{levelname}s {asctime} {module} {process} {thread} {message}s',
+            'format': '{levelname} {asctime} {module} {process} {thread} {message}',
             'style': '{',
         },
-
     },
     'handlers': {
         'console': {
-            'class': 'rich.logging.RichHandler',# 'logging.StreamHandler',
+            'class': 'logging.StreamHandler',  # 'rich.logging.RichHandler',
             'formatter': 'verbose',  # добавлен параметр formatter
         },
         'file': {
             'class': 'logging.FileHandler',
             'filename': './log/django.log',  # 'filename': '/path/to/django.log',
             'formatter': 'verbose',  # добавлен параметр formatter
-
         },
     },
     'loggers': {
