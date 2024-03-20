@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'myapp_1',
     'myapp_2',
     'hwapp_2',
+    'games',
 ]
 
 MIDDLEWARE = [
@@ -58,7 +59,9 @@ ROOT_URLCONF = 'my_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            BASE_DIR / 'templates'
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -104,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-RU'
 
 TIME_ZONE = 'UTC'
 
@@ -147,6 +150,7 @@ LOGGING = {
             'class': 'logging.FileHandler',
             'filename': './log/django.log',  # 'filename': '/path/to/django.log',
             'formatter': 'verbose',  # добавлен параметр formatter
+            'encoding': 'UTF-8',
         },
     },
     'loggers': {
