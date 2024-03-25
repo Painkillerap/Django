@@ -1,10 +1,11 @@
 import datetime
 import logging
 
-from django.http import HttpResponse
-from django.shortcuts import get_object_or_404, render
+from django.core.files.storage import FileSystemStorage
+from django.shortcuts import get_object_or_404, redirect, render
 
-from hwapp_2.models import Client, Order
+from .forms import ProductForm
+from .models import Client, Product, Order
 
 logger = logging.getLogger(__name__)
 
@@ -28,11 +29,56 @@ def client(request, client_id):
     return render(request, 'hwapp_2/client.html', {'client': client, 'orders': orders})
 
 
-def product(request):
-    result = 'Index page "Product" accessed'
-    logger.info(result)
-    http_text = result + "\n"
-    return HttpResponse(http_text)
+def product(request, product_id):
+    product = get_object_or_404(Product, pk=product_id)
+    image_old = product.image
+
+    logger.info('Index page "Product" accessed')
+
+    if request.method == 'POST':
+        form = ProductForm(request.POST, request.FILES)
+
+        if form.is_valid():
+            print('валидация пройдена')
+            name = form.cleaned_data['name']
+            description = form.cleaned_data['description']
+            price = form.cleaned_data['price']
+            quantity = form.cleaned_data['quantity']
+            image = form.cleaned_data['image']
+
+            if image:
+                print(f"изображение: загружено новое изображение {image}")
+                product = Product(pk=product_id,
+                                  name=name,
+                                  description=description,
+                                  price=price,
+                                  quantity=quantity,
+                                  image=image)
+                fs = FileSystemStorage()  # загруженное изображение
+                print('fs =', fs)
+                fs.save(image, image)  # сохранение в папку 'media'
+            else:
+                print("изображение: НОВОЕ ИЗОБРАЖЕНИЕ НЕ ЗАГРУЖЕНО !")
+                product = Product(pk=product_id,
+                                  name=name,
+                                  description=description,
+                                  price=price,
+                                  quantity=quantity,
+                                  image=image_old)
+            product.save()
+            return redirect('product', product_id)
+        else:
+            print('валидация НЕ пройдена !!!')
+    else:
+        form = ProductForm(instance=product)
+
+    return render(request, 'hwapp_2/product.html', {'product': product, 'form': form})
+
+
+def products_all(request):
+    products = Product.objects.all()
+    logger.info('Index page "Products ALL" accessed')
+    return render(request, 'hwapp_2/products_all.html', {'products': products})
 
 
 def order(request, order_id):
