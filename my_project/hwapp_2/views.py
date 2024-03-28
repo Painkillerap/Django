@@ -56,7 +56,7 @@ def product(request, product_id):
                                   image=image)
                 fs = FileSystemStorage()  # загруженное изображение
                 print('fs =', fs)
-                fs.save(image, image)  # сохранение в папку 'media'
+                fs.save(image.name, image)  # сохранение в папку 'media'
             else:
                 print("изображение: НОВОЕ ИЗОБРАЖЕНИЕ НЕ ЗАГРУЖЕНО !")
                 product = Product(pk=product_id,
@@ -65,7 +65,7 @@ def product(request, product_id):
                                   price=price,
                                   quantity=quantity,
                                   image=image_old)
-            product.save()
+                product.save()
             return redirect('product', product_id)
         else:
             print('валидация НЕ пройдена !!!')
