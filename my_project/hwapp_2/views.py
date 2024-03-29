@@ -10,6 +10,10 @@ from .models import Client, Product, Order
 logger = logging.getLogger(__name__)
 
 
+def index(request):
+    return render(request,'hwapp_2/base.html')
+
+
 def store_index(request):
     text = 'Index page "Online Store Start" accessed'
     logger.info(text)

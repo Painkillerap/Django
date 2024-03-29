@@ -4457,3 +4457,132 @@ INFO 2024-03-28 18:09:39,098 basehttp 10008 5936 "GET /admin/jsi18n/ HTTP/1.1" 2
 WARNING 2024-03-28 18:09:51,866 log 10008 21788 Not Found: /favicon.ico
 WARNING 2024-03-28 18:09:51,866 basehttp 10008 21788 "GET /favicon.ico HTTP/1.1" 404 2534
 INFO 2024-03-28 18:10:41,827 basehttp 10008 5936 "GET /admin/ HTTP/1.1" 200 13260
+INFO 2024-03-29 18:50:49,053 autoreload 35876 39208 Watching for file changes with StatReloader
+WARNING 2024-03-29 18:50:50,991 log 35876 26272 Not Found: /
+WARNING 2024-03-29 18:50:50,992 basehttp 35876 26272 "GET / HTTP/1.1" 404 12823
+INFO 2024-03-29 18:50:51,029 basehttp 35876 26272 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2024-03-29 18:50:51,029 basehttp 35876 39732 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13578
+INFO 2024-03-29 18:50:51,073 basehttp 35876 26272 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2024-03-29 18:50:51,105 basehttp 35876 26272 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO 2024-03-29 18:51:03,468 basehttp 35876 26272 "GET /hw2/ HTTP/1.1" 200 10962
+INFO 2024-03-29 18:51:05,030 basehttp 35876 26272 "GET /hw2/ HTTP/1.1" 200 10961
+INFO 2024-03-29 18:51:07,580 basehttp 35876 26272 "GET /hw2/clients_all/ HTTP/1.1" 200 22597
+INFO 2024-03-29 18:51:09,721 basehttp 35876 26272 "GET /hw2/products_all/ HTTP/1.1" 200 36900
+INFO 2024-03-29 18:51:12,706 basehttp 35876 26272 "GET /hw2/product/1/ HTTP/1.1" 200 12841
+WARNING 2024-03-29 18:51:12,750 log 35876 26272 Not Found: /media/media/red-hot-chilies-with-paprika-and-pepper-in-wooden-spoons.jpg
+WARNING 2024-03-29 18:51:12,751 basehttp 35876 26272 "GET /media/media/red-hot-chilies-with-paprika-and-pepper-in-wooden-spoons.jpg HTTP/1.1" 404 13129
+INFO 2024-03-29 18:51:14,312 basehttp 35876 26272 "GET /__debug__/render_panel/?store_id=b322a0c26bb74f30b22557729b740aca&panel_id=SQLPanel HTTP/1.1" 200 7320
+WARNING 2024-03-29 18:51:33,996 log 35876 26272 Not Found: /
+WARNING 2024-03-29 18:51:33,996 basehttp 35876 26272 "GET / HTTP/1.1" 404 12823
+INFO 2024-03-29 18:51:41,126 basehttp 35876 26272 "GET /games HTTP/1.1" 200 10853
+INFO 2024-03-29 18:51:41,159 basehttp 35876 39732 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 200 48
+INFO 2024-03-29 18:51:43,495 basehttp 35876 39732 "GET /games/ HTTP/1.1" 200 525
+INFO 2024-03-29 18:51:45,182 basehttp 35876 39732 "GET /games/random_100/ HTTP/1.1" 200 12311
+ERROR 2024-03-29 18:51:52,901 log 35876 39732 Internal Server Error: /games/heads_or_tails/
+Traceback (most recent call last):
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: games_heads_or_tails
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_project\games\views.py", line 55, in heads_or_tails
+    record.save()
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 160, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\GeekBrains\Django\Seminar\project\my_env_seminar\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: games_heads_or_tails
+ERROR 2024-03-29 18:51:52,947 basehttp 35876 39732 "GET /games/heads_or_tails/ HTTP/1.1" 500 174359
+INFO 2024-03-29 18:51:58,455 basehttp 35876 39732 "GET /games/playing_dice/ HTTP/1.1" 200 12316
+INFO 2024-03-29 18:51:59,440 basehttp 35876 39732 "GET /games/playing_dice/ HTTP/1.1" 200 12316
+INFO 2024-03-29 18:52:00,162 basehttp 35876 39732 "GET /games/playing_dice/ HTTP/1.1" 200 12316
+INFO 2024-03-29 18:52:00,723 basehttp 35876 39732 "GET /games/playing_dice/ HTTP/1.1" 200 12316
+INFO 2024-03-29 18:52:01,136 basehttp 35876 39732 "GET /games/playing_dice/ HTTP/1.1" 200 12316
+INFO 2024-03-29 18:52:01,371 basehttp 35876 39732 "GET /games/playing_dice/ HTTP/1.1" 200 12316
+INFO 2024-03-29 18:52:01,780 basehttp 35876 39732 "GET /games/playing_dice/ HTTP/1.1" 200 12316
+INFO 2024-03-29 18:52:01,971 basehttp 35876 39732 "GET /games/playing_dice/ HTTP/1.1" 200 12316
+INFO 2024-03-29 18:52:05,485 basehttp 35876 39732 "GET /games/heads_or_tails/5/ HTTP/1.1" 200 12647
+INFO 2024-03-29 18:57:00,078 autoreload 35876 39208 A:\GeekBrains\Django\Seminar\project\my_project\hwapp_2\views.py changed, reloading.
+INFO 2024-03-29 18:57:00,525 autoreload 30596 10040 Watching for file changes with StatReloader
+INFO 2024-03-29 18:57:09,077 basehttp 30596 37976 "GET /hw2/ HTTP/1.1" 200 10962
+INFO 2024-03-29 18:57:09,215 basehttp 30596 37976 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-03-29 18:57:09,215 basehttp 30596 14012 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-03-29 18:57:09,252 basehttp 30596 14012 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-03-29 18:57:09,254 basehttp 30596 14012 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-03-29 18:57:11,808 basehttp 30596 14012 "GET /hw2/ HTTP/1.1" 200 10961
+INFO 2024-03-29 18:57:11,835 basehttp 30596 37976 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-03-29 18:57:11,836 basehttp 30596 14012 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-03-29 18:58:18,144 autoreload 30596 10040 A:\GeekBrains\Django\Seminar\project\my_project\my_project\urls.py changed, reloading.
+INFO 2024-03-29 18:58:18,620 autoreload 38368 35868 Watching for file changes with StatReloader
+INFO 2024-03-29 18:58:20,189 basehttp 38368 33396 "GET /hw2/ HTTP/1.1" 200 10962
+INFO 2024-03-29 18:58:23,142 basehttp 38368 33396 "GET /hw2/ HTTP/1.1" 200 10961
+INFO 2024-03-29 18:58:24,629 basehttp 38368 33396 "GET / HTTP/1.1" 200 10957
+INFO 2024-03-29 18:58:41,070 basehttp 38368 33396 "GET / HTTP/1.1" 200 10957
+INFO 2024-03-29 18:58:42,236 basehttp 38368 33396 "GET /hw2/clients_all/ HTTP/1.1" 200 22597
+INFO 2024-03-29 18:58:44,060 basehttp 38368 33396 "GET /hw2/products_all/ HTTP/1.1" 200 36900
+INFO 2024-03-29 18:58:45,058 basehttp 38368 33396 "GET /hw2/client/1 HTTP/1.1" 200 10874
+INFO 2024-03-29 18:58:45,086 basehttp 38368 28680 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 304 0
+INFO 2024-03-29 18:58:47,418 basehttp 38368 28680 "GET /hw2/client/1/ HTTP/1.1" 200 11360
+INFO 2024-03-29 18:58:49,118 basehttp 38368 28680 "GET /hw2/client/1 HTTP/1.1" 200 10874
+INFO 2024-03-29 18:58:50,571 basehttp 38368 16152 "GET /hw2/client/1/ HTTP/1.1" 200 11360
+INFO 2024-03-29 18:58:51,806 basehttp 38368 16152 "GET /hw2/order/1 HTTP/1.1" 200 10871
+INFO 2024-03-29 18:58:53,986 basehttp 38368 34600 "GET /hw2/order/1/ HTTP/1.1" 200 11006
+INFO 2024-03-29 18:58:56,887 basehttp 38368 34600 "GET /hw2/client/1 HTTP/1.1" 200 10874
+INFO 2024-03-29 18:58:57,832 basehttp 38368 35460 "GET /hw2/client/1/ HTTP/1.1" 200 11360
+INFO 2024-03-29 18:58:58,765 basehttp 38368 35460 "GET /hw2/order/1 HTTP/1.1" 200 10871
+INFO 2024-03-29 18:59:00,016 basehttp 38368 28680 "GET /hw2/order/1/ HTTP/1.1" 200 11006
+INFO 2024-03-29 18:59:04,620 basehttp 38368 28680 "GET /hw2/clients_all/ HTTP/1.1" 200 22596
+INFO 2024-03-29 18:59:08,215 basehttp 38368 28680 "GET /hw2/client/11/ HTTP/1.1" 200 11351
+INFO 2024-03-29 18:59:13,089 basehttp 38368 28680 "GET /hw2/orders/11/ HTTP/1.1" 200 12821
