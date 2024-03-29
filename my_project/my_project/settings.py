@@ -19,14 +19,19 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-aeh6ioac_0gx-+o)wc#17%#-w2_2%^6@w=-xi-+c34^%+lvxzp'
+# SECRET_KEY = 'django-insecure-aeh6ioac_0gx-+o)wc#17%#-w2_2%^6@w=-xi-+c34^%+lvxzp'
+import os
 
+SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
     '192.168.1.251',
+    'painkiller.pythonanywhere.com'
 ]
 INTERNAL_IPS = [
     '127.0.0.1',
@@ -125,6 +130,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = BASE_DIR / 'static/'
 
 MEDIA_URL = '/media/'
 
