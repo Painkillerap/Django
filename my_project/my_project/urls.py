@@ -25,5 +25,5 @@ urlpatterns = [
     path('sem2/', include('myapp_2.urls')),
     path('hw2/', include('hwapp_2.urls')),
     path('games/', include('games.urls')),
-    path('__debug__/', include("debug_toolbar.urls")),
+    # path('__debug__/', include("debug_toolbar.urls")),
 ]
